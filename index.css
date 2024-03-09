@@ -2,7 +2,7 @@
 margin: 0;
 padding: 0;
 font-family: Verdana, Geneva, Tahoma, sans-serif;
-
+list-style-type: none;
 }
 
 .header{
@@ -14,12 +14,95 @@ font-family: Verdana, Geneva, Tahoma, sans-serif;
     align-items: center;
     padding: 60px;
     flex-wrap: wrap; 
-      /* voce pode quebrar os itenpara ajustar minha tela */
+      /* voce pode quebrar os itens para ajustar minha tela */
+    
+      
 }
 
 .header i{
     font-size: 100px;
-    color: brown;
+    color: #a82743;
+  
+   
+}
+
+.header.fa-solid{
+    /* coloca o tamanho que vc quiser */
+    font-size: 100px;
+    color: #259b9b;
+}
+
+.menu li a{
+/* nâo quero uma linha em baixo do link */
+text-decoration: none;
+color: #050404;
+padding: 10px;
+background-color: aqua;
+}
+
+.menu li{
+    /* separa os link deixando um no lado da outra */
+    margin-left: 0px;
+}
+
+.menu{
+    /* separa os itens */
+    display: flex;
+    
+}
+
+h1{
+    text-align: center;
+    margin-top: 100px;
+    color: rgb(228, 231, 6);
+    border-radius: 10px;
+    border: solid greenyellow;
+}
+
+p{
+    color: #081963;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.flex{
+    /* aqui atribuimoss a imagem ao lado  */
+ display: flex;
+ /* aqui informamos que os itens podem quebrar para se acadepar em telas menores */
+ max-width: 1100px;
+ /* ele vai centralizar as div-s */
+ margin: 0 auto;
+ /* centralizar as div-s */
+ margin-bottom: 80px;
+ /* margem inferiror da minha section */
+ align-items: center;
+ flex-wrap: wrap;
+ /* serve para quebrar uma linha */
+ 
+
+}
+
+.flex img{
+/* adaptacao maxima da imagem na pagina da div */
+max-width: 200px;
+/* reforçando que minhas imagens estejam em formato de bloco */
+display: block;
+}
+
+.flex div{
+    margin: 80px;
+    /* espaçamento das margens laterais  */
+    flex: 1 1 200px;
+    /* aumenta o tamanho */
+}
+
+.caixa{
+    background-color: #a82743;
+    font-size: 20px;
 }
 
 
+.pasta{
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+}
