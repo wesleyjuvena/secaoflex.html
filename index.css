@@ -8,7 +8,7 @@ list-style-type: none;
 .header{
     /* responsavel por alinhar os itens  lado a lado */
 
-    background-color: rgb(21, 255, 0);
+    background-color:#55d81e ;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -37,7 +37,7 @@ list-style-type: none;
 text-decoration: none;
 color: #050404;
 padding: 10px;
-background-color: aqua;
+background-color: #96deea;
 }
 
 .menu li{
@@ -54,9 +54,9 @@ background-color: aqua;
 h1{
     text-align: center;
     margin-top: 100px;
-    color: rgb(228, 231, 6);
+    color:#e1e12b ;
     border-radius: 10px;
-    border: solid greenyellow;
+    border: solid #e1e12b ;
 }
 
 p{
@@ -106,7 +106,7 @@ display: block;
 .rodape{
     background-color: #081963;
     padding: 70px;
-    color: aliceblue;
+    color:#fffffc ;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
@@ -129,7 +129,7 @@ font-size: 25px;
 }
 
 .list-rodape li a:hover{
-    color: beige;
+    color: #fffffc;
     transition: 0,8s;
 }
 
@@ -138,7 +138,7 @@ font-size: 25px;
     font-size: 25px;
     padding: 15px;
     margin-left: 10px;
-    background-color: rgb(0, 255, 21);
+    background-color:#01e804 ;
     border-radius: 5px;
 }
 
